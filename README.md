@@ -1,8 +1,10 @@
-# C - A collaborative listening room using Spotify
+# Spotify Listening Room
 
-This project is a site where multiple users can propose songs and vote for them, having them played in a synchronised way through Spotify.
+Este proyecto es un prototipo creado para la realización de tesis de la Universidad Maimonides. 
 
-## Setting up
+En el mismo, múltiples usuarios pueden acceder a través de su cuenta de Spotify y agregar canciones a una lista de reproducción sincronizada entre todos los usuarios.
+
+## Configuración
 
 The server can be run locally and also deployed to Heroku. You will need to register your own Spotify app and set the credentials in a couple of config files. For that:
 
@@ -22,7 +24,6 @@ HOST=http://localhost:3000
 CLIENT_ID=<your_client_id>
 CLIENT_SECRET=<your_client_secret>
 ```
-
 
 
 ## Dependencies
